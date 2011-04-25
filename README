@@ -3,7 +3,7 @@ git map is a tool to execute a Git command in multiple Git directories at the sa
 WHY?
 =======
 
-Occasionally I have projects made up of several Git repositories.  Running 'git map branch' quickly confirms everyone is on the correct branch, 'git map clean -dxf' to clean them all, and 'git map fetch' to make sure they all have the latest objects before going off line is very handy.  This tool will work on all the Git repositories that are at the same level in the file system relative to the current directory or current repository you are in..
+Occasionally I have projects made up of several Git repositories.  Running 'git map branch' quickly confirms everyone is on the correct branch, 'git map clean -dxf' to clean them all, and 'git map fetch' to make sure they all have the latest objects before going off line is very handy.  This tool will work on all the Git repositories that are at the same level in the file system relative to the current directory or current repository you are in.
 
 Example
 =======
