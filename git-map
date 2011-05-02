@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 #
 # git-map is a tool to execute a Git command in multiple git directories.
 #
