@@ -34,5 +34,5 @@ if [ $? -eq 0 ] ; then
 fi
 for dir in $(find -maxdepth 2 -type d -name .git -exec dirname '{}' \;); do
   echo "Running \"git $@\" in ${dir}";
-  (cd ${dir}; git $@)
+  (cd ${dir}; git $@) || exit $?
 done
